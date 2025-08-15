@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
   res.json({
     name: "Oracle",
     description: "A Database Manager",
+    time: Date.now()
   });
 });
 
